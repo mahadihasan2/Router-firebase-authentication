@@ -6,6 +6,7 @@ const Login = () => {
     return (
         <div>
             <h3>This is logIn Section</h3>
+            <button onClick={signInWithGoogle}>Sign In Google</button>
             <div>
             <form action="">
                 <input type="email" placeholder='Enter your e-mail' />
